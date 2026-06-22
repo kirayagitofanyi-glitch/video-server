@@ -18,7 +18,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "TikTok Video Server Running"
+    app: "Murehe Video Server"
   });
 });
 
